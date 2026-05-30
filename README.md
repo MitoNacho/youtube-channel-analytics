@@ -4,7 +4,7 @@ Aplicación web desarrollada con FastAPI que permite analizar y comparar canales
 
 <p align="center">
 
-<img src="docs/images/home.png" alt="YouTube Analytics Home" width="900"/>
+<img src="YT-prin.png" alt="YouTube Analytics Home" width="900"/>
 
 </p>
 
