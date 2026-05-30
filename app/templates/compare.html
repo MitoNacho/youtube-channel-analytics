@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Compare Channels</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-dark text-white">
+    <div class="container py-5">
+      <div class="d-flex justify-content-between align-items-center mb-5">
+        <h1 class="fw-bold">Channel Comparison</h1>
+
+        <a href="/" class="btn btn-light"> ← Home </a>
+      </div>
+
+      <div class="text-center mb-5">
+        <span class="badge bg-warning text-dark fs-4 px-4 py-2 shadow">
+          VS
+        </span>
+      </div>
+
+      <div class="row g-4">
+        <!-- FIRST CHANNEL -->
+
+        <div class="col-lg-6">
+          <div class="card bg-secondary text-white border-0 shadow-lg h-100">
+            <div class="card-body p-4">
+              <div class="text-center">
+                <img
+                  src="{{ first.avatar }}"
+                  class="rounded-circle shadow mb-4"
+                  width="180"
+                />
+
+                <h2 class="fw-bold">{{ first.name }}</h2>
+              </div>
+
+              <hr />
+
+              <div class="row text-center mt-4">
+                <div class="col-4">
+                  <h4 class="fw-bold">{{ first.subs }}</h4>
+
+                  <small class="text-light"> Subscribers </small>
+                </div>
+
+                <div class="col-4">
+                  <h4 class="fw-bold">{{ first.views }}</h4>
+
+                  <small class="text-light"> Views </small>
+                </div>
+
+                <div class="col-4">
+                  <h4 class="fw-bold">{{ first.videos }}</h4>
+
+                  <small class="text-light"> Videos </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECOND CHANNEL -->
+
+        <div class="col-lg-6">
+          <div class="card bg-secondary text-white border-0 shadow-lg h-100">
+            <div class="card-body p-4">
+              <div class="text-center">
+                <img
+                  src="{{ second.avatar }}"
+                  class="rounded-circle shadow mb-4"
+                  width="180"
+                />
+
+                <h2 class="fw-bold">{{ second.name }}</h2>
+              </div>
+
+              <hr />
+
+              <div class="row text-center mt-4">
+                <div class="col-4">
+                  <h4 class="fw-bold">{{ second.subs }}</h4>
+
+                  <small class="text-light"> Subscribers </small>
+                </div>
+
+                <div class="col-4">
+                  <h4 class="fw-bold">{{ second.views }}</h4>
+
+                  <small class="text-light"> Views </small>
+                </div>
+
+                <div class="col-4">
+                  <h4 class="fw-bold">{{ second.videos }}</h4>
+
+                  <small class="text-light"> Videos </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
