@@ -50,7 +50,7 @@ Diseñado para ofrecer una experiencia clara, responsive y orientada al análisi
 
 <p align="center">
 
-<img src="docs/images/compare.png" alt="YouTube Analytics Compare" width="900"/>
+<img src="YT-comp.png" alt="YouTube Analytics Compare" width="900"/>
 
 </p>
 
