@@ -216,6 +216,10 @@ Este proyecto ha sido desarrollado con el objetivo de profundizar en:
 
 ## 🌐 Enlaces
 
+### App desplegada en Render
+
+👉 https://youtube-channel-analytics.onrender.com
+
 ### Portfolio
 
 👉 https://mitonacho.github.io/dev/
