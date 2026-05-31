@@ -1,5 +1,10 @@
 # 📺 YouTube Analytics
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
+![YouTube API](https://img.shields.io/badge/YouTube-Data_API-red)
+
 Aplicación web desarrollada con FastAPI que permite analizar y comparar canales de YouTube utilizando la API oficial de YouTube Data.
 
 <p align="center">
