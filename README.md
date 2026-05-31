@@ -21,6 +21,8 @@ Busca cualquier canal de YouTube y obtén de forma inmediata:
 - Visualizaciones totales
 - Número de vídeos publicados
 
+<img src="canal-yt.png" alt="YouTube Analytics channel" width="900"/>
+
 ---
 
 ### 🎬 Vídeos recientes
