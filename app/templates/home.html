@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Youtube Analytics</title>
 
@@ -14,25 +15,34 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+
+    <link rel="stylesheet" href="/static/style.css" />
   </head>
 
-  <body class="bg-dark text-white">
-    <div class="container">
+  <body class="app-body text-white">
+    <main class="app-shell">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="text-center mt-5 mb-5">
-            <h1 class="display-3 fw-bold">YouTube Analytics</h1>
+          <div class="app-hero text-center">
+            <div class="app-icon mx-auto mb-3">
+              <i class="bi bi-youtube"></i>
+            </div>
 
-            <p class="lead text-secondary">
+            <h1 class="fw-bold">YouTube Analytics</h1>
+
+            <p class="lead">
               Analyze and compare YouTube channels
             </p>
           </div>
 
           <!-- SEARCH CHANNEL -->
 
-          <div class="card bg-secondary border-0 mb-4">
-            <div class="card-body p-4">
-              <h3 class="mb-3">🔍 Search Channel</h3>
+          <section class="app-card mb-4">
+            <div class="card-body">
+              <h2 class="app-section-title">
+                <i class="bi bi-search"></i>
+                Search Channel
+              </h2>
 
               <form action="/search" method="get">
                 <input
@@ -43,18 +53,21 @@
                   required
                 />
 
-                <button type="submit" class="btn btn-success w-100">
+                <button type="submit" class="btn btn-success btn-app w-100">
                   Search
                 </button>
               </form>
             </div>
-          </div>
+          </section>
 
           <!-- COMPARE CHANNELS -->
 
-          <div class="card bg-secondary border-0">
-            <div class="card-body p-4">
-              <h3 class="mb-3">⚔️ Compare Channels</h3>
+          <section class="app-card">
+            <div class="card-body">
+              <h2 class="app-section-title">
+                <i class="bi bi-bar-chart"></i>
+                Compare Channels
+              </h2>
 
               <form action="/compare" method="get">
                 <input
@@ -73,16 +86,17 @@
                   required
                 />
 
-                <button type="submit" class="btn btn-warning w-100">
+                <button type="submit" class="btn btn-warning btn-app w-100">
                   Compare
                 </button>
               </form>
             </div>
-          </div>
+          </section>
         </div>
       </div>
-    </div>
-    <footer class="mt-5 py-5 text-center">
+    </main>
+
+    <footer class="app-footer text-center">
       <div class="mb-3">
         <a
           href="https://mitonacho.github.io/dev/"
@@ -101,7 +115,7 @@
         </a>
       </div>
 
-      <small class="text-secondary">
+      <small>
         Proyecto desarrollado por Nacho Naves
       </small>
     </footer>
