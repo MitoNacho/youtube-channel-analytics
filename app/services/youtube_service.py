@@ -99,6 +99,18 @@ class YoutubeService:
 
         item = data["items"][0]
 
+        subs_raw = int(
+            item["statistics"].get("subscriberCount", 0)
+        )
+
+        views_raw = int(
+            item["statistics"].get("viewCount", 0)
+        )
+
+        videos_raw = int(
+            item["statistics"].get("videoCount", 0)
+        )
+
         return {
 
             "channel_id": channel_id,
@@ -110,13 +122,22 @@ class YoutubeService:
             item["snippet"]["thumbnails"]["high"]["url"],
 
             "subs":
-            format_number(item["statistics"].get("subscriberCount",0)),
+            format_number(subs_raw),
+
+            "subs_raw":
+            subs_raw,
 
             "views":
-            format_number(item["statistics"]["viewCount"]),
+            format_number(views_raw),
+
+            "views_raw":
+            views_raw,
 
             "videos":
-            format_number(item["statistics"]["videoCount"])
+            format_number(videos_raw),
+
+            "videos_raw":
+            videos_raw
 
                 }
 
