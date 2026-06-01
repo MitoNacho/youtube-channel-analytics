@@ -10,7 +10,7 @@ Aplicación web desarrollada con **FastAPI** que permite analizar canales de You
 
 <p align="center">
 
-<img src="docs/images/home.png" alt="YouTube Analytics Home" width="900"/>
+<img src="app-home.png" alt="YouTube Analytics Home" width="900"/>
 
 </p>
 
@@ -30,7 +30,7 @@ Busca cualquier canal de YouTube y obtén de forma inmediata:
 
 <p align="center">
 
-<img src="docs/images/channel.png" alt="Channel Analytics" width="900"/>
+<img src="channel.png" alt="Channel Analytics" width="900"/>
 
 </p>
 
@@ -64,7 +64,7 @@ Diseñado para ofrecer una experiencia clara, responsive y orientada al análisi
 
 <p align="center">
 
-<img src="docs/images/compare.png" alt="Compare Channels" width="900"/>
+<img src="channel-vs.png" alt="Compare Channels" width="900"/>
 
 </p>
 
@@ -94,7 +94,7 @@ Ideal para descubrir creadores y poner a prueba tus conocimientos sobre YouTube.
 
 <p align="center">
 
-<img src="docs/images/game.png" alt="Guess The Biggest Channel" width="900"/>
+<img src="app-game.png" alt="Guess The Biggest Channel" width="900"/>
 
 </p>
 
