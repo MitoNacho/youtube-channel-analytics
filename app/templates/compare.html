@@ -26,6 +26,18 @@
         <span class="compare-badge">VS</span>
       </div>
 
+      {% if error_message %}
+
+      <section class="app-card mb-4">
+        <div class="card-body text-center">
+          <h2 class="app-list-title">Unable to compare channels</h2>
+
+          <p class="game-streak mb-0">{{ error_message }}</p>
+        </div>
+      </section>
+
+      {% else %}
+
       <div class="row g-4">
         <!-- FIRST CHANNEL -->
 
@@ -107,6 +119,8 @@
           </section>
         </div>
       </div>
+
+      {% endif %}
     </main>
   </body>
 </html>

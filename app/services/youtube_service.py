@@ -15,10 +15,18 @@ BASE_URL = "https://www.googleapis.com/youtube/v3"
 class YoutubeService:
 
     @staticmethod
-    def search_channel(channel_name):
+    def error_message(error):
 
-        print("API KEY:")
-        print(API_KEY)
+        if isinstance(error, dict):
+            return error.get(
+                "message",
+                "Youtube API returned an error"
+            )
+
+        return str(error)
+
+    @staticmethod
+    def search_channel(channel_name):
 
         url = f"{BASE_URL}/search"
 
@@ -38,16 +46,10 @@ class YoutubeService:
 
         data = response.json()
 
-        print("STATUS CODE:")
-        print(response.status_code)
-
-        print("RESPONSE DATA:")
-        print(data)
-
         if "items" not in data:
 
             return {
-                "error": data
+                "error": data.get("error", data)
             }
 
         if len(data["items"]) == 0:
@@ -82,13 +84,10 @@ class YoutubeService:
 
         data = response.json()
 
-        print("CHANNEL DATA:")
-        print(data)
-
         if "items" not in data:
 
             return {
-                "error": data
+                "error": data.get("error", data)
             }
 
         if len(data["items"]) == 0:

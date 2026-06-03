@@ -26,6 +26,20 @@
         Current Streak: {{ streak }}
       </div>
 
+      {% if error_message %}
+
+      <section class="app-card mb-4">
+        <div class="card-body text-center">
+          <h2 class="app-list-title">Unable to start round</h2>
+
+          <p class="game-streak mb-4">{{ error_message }}</p>
+
+          <a href="/" class="btn btn-light btn-app-secondary">Home</a>
+        </div>
+      </section>
+
+      {% else %}
+
       {% if result %}
 
       <section class="app-card result-card mb-4">
@@ -37,6 +51,10 @@
           {% else %}
 
           <h2 class="result-title text-danger">&#10060; Wrong Answer</h2>
+
+          <p class="game-streak mt-3 mb-0">
+            Streak achieved: {{ final_streak }}
+          </p>
 
           {% endif %}
 
@@ -135,6 +153,8 @@
           </section>
         </div>
       </div>
+
+      {% endif %}
     </main>
   </body>
 </html>

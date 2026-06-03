@@ -18,6 +18,16 @@ def channel(name: str):
         name
     )
 
+    if "error" in channel_data:
+
+        return {
+
+            "error": YoutubeService.error_message(
+                channel_data["error"]
+            )
+
+        }
+
     videos = YoutubeService.recent_videos(
         channel_data["channel_id"]
     )
@@ -41,6 +51,30 @@ def search_channel(
         channel
     )
 
+    if "error" in channel_data:
+
+        return templates.TemplateResponse(
+
+            request=request,
+
+            name="channel.html",
+
+            context={
+
+                "request": request,
+
+                "channel": None,
+
+                "videos": [],
+
+                "error_message": YoutubeService.error_message(
+                    channel_data["error"]
+                )
+
+            }
+
+        )
+
     videos = YoutubeService.recent_videos(
         channel_data["channel_id"]
     )
@@ -57,7 +91,9 @@ def search_channel(
 
             "channel": channel_data,
 
-            "videos": videos
+            "videos": videos,
+
+            "error_message": None
 
         }
 

@@ -27,6 +27,18 @@ def compare_page(
         second
     )
 
+    error_message = None
+
+    if "error" in first_channel:
+        error_message = YoutubeService.error_message(
+            first_channel["error"]
+        )
+
+    if "error" in second_channel:
+        error_message = YoutubeService.error_message(
+            second_channel["error"]
+        )
+
     return templates.TemplateResponse(
 
         request=request,
@@ -39,7 +51,9 @@ def compare_page(
 
             "first": first_channel,
 
-            "second": second_channel
+            "second": second_channel,
+
+            "error_message": error_message
 
         }
 

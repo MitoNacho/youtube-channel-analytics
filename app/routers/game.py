@@ -16,6 +16,32 @@ def game_page(request: Request):
 
     round_data = GameService.create_round()
 
+    if "error" in round_data:
+
+        return templates.TemplateResponse(
+
+            request=request,
+
+            name="game.html",
+
+            context={
+
+                "request": request,
+
+                "first": None,
+
+                "second": None,
+
+                "streak": request.session.get("streak", 0),
+
+                "result": None,
+
+                "error_message": round_data["error"]
+
+            }
+
+        )
+
     return templates.TemplateResponse(
 
         request=request,
@@ -32,7 +58,9 @@ def game_page(request: Request):
 
             "streak": request.session.get("streak", 0),
 
-            "result": None
+            "result": None,
+
+            "error_message": None
 
         }
 
@@ -66,11 +94,17 @@ async def check_game(request: Request):
         form["choice"]
     )
 
+    current_streak = request.session.get("streak", 0)
+    final_streak = current_streak
+
     if is_correct:
-        request.session["streak"] = request.session.get("streak", 0) + 1
+        request.session["streak"] = current_streak + 1
+        final_streak = request.session["streak"]
         result = "correct"
 
     else:
+        # Preserve the achieved streak for the result screen before resetting.
+        final_streak = current_streak
         request.session["streak"] = 0
         result = "wrong"
 
@@ -90,7 +124,11 @@ async def check_game(request: Request):
 
             "streak": request.session.get("streak", 0),
 
-            "result": result
+            "final_streak": final_streak,
+
+            "result": result,
+
+            "error_message": None
 
         }
 

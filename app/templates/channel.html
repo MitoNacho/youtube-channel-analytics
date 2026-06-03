@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>{{ channel.name }} | Youtube Analytics</title>
+    <title>Channel Analytics | Youtube Analytics</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -21,6 +21,18 @@
 
         <a href="/" class="btn btn-light btn-app-secondary">Home</a>
       </div>
+
+      {% if error_message %}
+
+      <section class="app-card mb-4">
+        <div class="card-body text-center">
+          <h2 class="app-list-title">Unable to load channel</h2>
+
+          <p class="game-streak mb-0">{{ error_message }}</p>
+        </div>
+      </section>
+
+      {% else %}
 
       <!-- CHANNEL CARD -->
 
@@ -87,6 +99,8 @@
 
         {% endfor %}
       </div>
+
+      {% endif %}
     </main>
   </body>
 </html>
