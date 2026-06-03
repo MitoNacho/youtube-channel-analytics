@@ -12,17 +12,23 @@ from app.routers import compare
 from app.routers import game
 from app.scripts.build_cache import build_cache
 from app.services.game_service import GameService
+from contextlib import asynccontextmanager
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+
+    if not GameService.cache_exists():
+        build_cache()
+
+    yield
 
 app = FastAPI(
-    title="Youtube Analytics API"
+    title="Youtube Analytics API",
+    lifespan=lifespan
 )
 
 
-@app.on_event("startup")
-def ensure_game_cache():
-    # Build the local game cache once so gameplay never calls YouTube directly.
-    if not GameService.cache_exists():
-        build_cache()
 
 app.add_middleware(
     SessionMiddleware,

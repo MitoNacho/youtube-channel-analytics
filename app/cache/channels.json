@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-04",
   "channels": {
     "MrBeast": {
       "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
@@ -546,6 +546,188 @@
       "avatar": "https://yt3.ggpht.com/YeR5UQF-FtW_QIS1Th74rOyKewLiZzwXpMF6Kh4wWNUNBsFhWx6Be3yDkItsGPIXVbkEGl4Irg=s800-c-k-c0x00ffffff-no-rj",
       "subs": "769K",
       "subs_raw": 769000
+    },
+    "xBuyer": {
+      "channel_id": "UCXN1Ap4A1bOfNX3O4tIY_gQ",
+      "name": "xBuyer",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_nWKAXl43WdWqVhze0XuAnhPtrgbkdXaoxzCg9KrOXRQ8s=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "6.0M",
+      "subs_raw": 5980000
+    },
+    "Knekro": {
+      "channel_id": "UCsWLy--m0Uc2briImMT7Slw",
+      "name": "knekroTV",
+      "avatar": "https://yt3.ggpht.com/Ax1tdZe2UyMYpcT30hCVNwWTX5dfaO2Cz6Rngi0yZSeL7qTNdqa1rNzwH6AUQTM58xnKr865bA=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "146K",
+      "subs_raw": 146000
+    },
+    "CodeAesthetic": {
+      "channel_id": "UCaSCt8s_4nfkRglWCvNSDrg",
+      "name": "CodeAesthetic",
+      "avatar": "https://yt3.ggpht.com/fKq1-wK3gkERFz9MH5bEvF73k9NUORswE2wxQ6YkCWzY7yMyYvRleubgUt_a8B8tpIyh_KGX=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "439K",
+      "subs_raw": 439000
+    },
+    "freeCodeCamp.org": {
+      "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "name": "freeCodeCamp.org",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "11.7M",
+      "subs_raw": 11700000
+    },
+    "midudev": {
+      "channel_id": "UC8LeXCWOalN8SxlrPcG-PaQ",
+      "name": "midudev",
+      "avatar": "https://yt3.ggpht.com/QkJIZgFfiFacdK8syyPRt7cJYPl3jTf0qFhdPwFdpJpyCW5jI_uylNK5a3IH8bitE2wy6Dr2Lw=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "794K",
+      "subs_raw": 794000
+    },
+    "El Rincón de Giorgio": {
+      "channel_id": "UCDZsyOkn-WTiTwgAvZSQ_cg",
+      "name": "El Rincón De Giorgio",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_n__fitKrIQQuSOL-VRAmpoNGhhoH7WYDlIzPic0DBniHM=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "12.3M",
+      "subs_raw": 12300000
+    },
+    "Leyendas & Videojuegos": {
+      "channel_id": "UCMnZ3qm76jc3SUi9Z-5OdcA",
+      "name": "Leyendas & Videojuegos",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_n-lRPOdblZJINRJ79DOP30Xocq7wUEK5AbgKvdUA1g6a8=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "753K",
+      "subs_raw": 753000
+    },
+    "3DJuegos": {
+      "channel_id": "UC05m1jT_pGm-DJKlpXsBYkA",
+      "name": "3DJuegos",
+      "avatar": "https://yt3.ggpht.com/WnFY8-vmF4Cq6D-y7Rea_IAlKpE-02P6exlHR68tKQioKpYueXaknkcX398e8IFb6SC4skhV0A=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "1.3M",
+      "subs_raw": 1270000
+    },
+    "Los Polinesios": {
+      "channel_id": "UCs8qka8tfhdc69wzXYdtZ3A",
+      "name": "LosPolinesios",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_knH2FKDUW086Gr3mqPlWMnBqvKQPRqz0mXyg07k9xdrqs=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "27.3M",
+      "subs_raw": 27300000
+    },
+    "Veritasium": {
+      "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+      "name": "Veritasium",
+      "avatar": "https://yt3.ggpht.com/7vCbvtCqtjQ3YLgsJt7Y952MQV1sBvhllSCSxHP8_sVZdcPCBrITfhkN2RdyCuwPnsByq-1GoA=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "20.8M",
+      "subs_raw": 20800000
+    },
+    "Computerphile": {
+      "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+      "name": "Computerphile",
+      "avatar": "https://yt3.ggpht.com/ebHMyRfch3u2UTZN1WQJDp9J5U7o38T_WnGkd2QhAIQwBgvozdaOCOnfDMtngtoHWutJvLl4i0c=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "2.6M",
+      "subs_raw": 2620000
+    },
+    "Fazt": {
+      "channel_id": "UCX9NJ471o7Wie1DQe94RVIg",
+      "name": "Fazt",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_nlI29kkP3d2OAKZTdDVgkDA6D7g7TfNvSKNBGTY-5cQHY=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "675K",
+      "subs_raw": 675000
+    },
+    "Eurogamer Spain": {
+      "channel_id": "UCvmF_tzu-eK6FRfMlOp6-Fg",
+      "name": "Eurogamerspain",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_n4AfRnBQkjmBQlqKDtqABiNSDUPQNY2_bfhw5MycGoJQ=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "1.7M",
+      "subs_raw": 1700000
+    },
+    "Alexelcapo": {
+      "channel_id": "UCdRx6BjmUwdP7pfGIYPRHaQ",
+      "name": "alexelcapo",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_kmwEITq1_BtGYiYPktIqg33kY51P51Z6OlGfxm7F8tKNQ=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "1.8M",
+      "subs_raw": 1840000
+    },
+    "Reven": {
+      "channel_id": "UCb9qkYiIaj3WNSDXEs28uNg",
+      "name": "Reven - Teamfight Tactics",
+      "avatar": "https://yt3.ggpht.com/EulDTfN8Wp43NY2iDrw4Sh0_A9a2P78yjN4h_QenWUIWtkSwifGtSCJAXQB-kjsCzefFoWa-cw=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "181K",
+      "subs_raw": 181000
+    },
+    "MKBHD": {
+      "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
+      "name": "Marques Brownlee",
+      "avatar": "https://yt3.ggpht.com/qu4TmIaYUlS41-dJ9gZ7DUR3nilvmB5_11i6OKSdvNnBNiyOusZP1bMN6ICnuxtjFBb6ioKgRQ=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "21M",
+      "subs_raw": 21000000
+    },
+    "Nate Gentile": {
+      "channel_id": "UC36xmz34q02JYaZYKrMwXng",
+      "name": "Nate Gentile",
+      "avatar": "https://yt3.ggpht.com/bsvlD3rLbbYBhHF75p4BugJ2Z6ZcOU5flR7EY9W304sGomOcUlhipZoVg7SfhpLJV0RGatJlig=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "3.1M",
+      "subs_raw": 3150000
+    },
+    "DotCSV": {
+      "channel_id": "UCOTko-zmnQTcOxSRdg5_uOQ",
+      "name": "Dot CSV Lab ",
+      "avatar": "https://yt3.ggpht.com/4jWUA7ClsNgJbfsTwAYQZ-OGzEPNvL7dhlIwHo5Ht04nhJn7nVzvfHWho_J7-JrFuUQK8NNK=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "242K",
+      "subs_raw": 242000
+    },
+    "Kurzgesagt": {
+      "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+      "name": "Kurzgesagt – In a Nutshell",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_n1Ribd7LwdP_qKtqWL3ZDfIgv9M1d6g78VwpHGXVR2Ir4=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "25.3M",
+      "subs_raw": 25300000
+    },
+    "NetworkChuck": {
+      "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+      "name": "NetworkChuck",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_k01-_GpvVZW8w4ULtaQaa55ls8aMf2a5dXhIe56pjMvG0=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "5.3M",
+      "subs_raw": 5280000
+    },
+    "ByteByteGo": {
+      "channel_id": "UCZgt6AzoyjslHTC9dz0UoTw",
+      "name": "ByteByteGo",
+      "avatar": "https://yt3.ggpht.com/ZDRUyBUwc2WXZzvNKP9VS9myI6Mg2puQLaWyp4hibRu-owlsasZ3DVNGSQJwzO1IU-tqoMiGgdc=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "1.4M",
+      "subs_raw": 1390000
+    },
+    "Tech With Tim": {
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "name": "Tech With Tim",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_k15oXl74WcnpdL-uVBv6IHBgAfXEEnpUiS-IoEyV1auyY=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "2.0M",
+      "subs_raw": 2020000
+    },
+    "HolaMundo": {
+      "channel_id": "UC4FHiPgS1KXkUMx3dxBUtPg",
+      "name": "HolaMundo",
+      "avatar": "https://yt3.ggpht.com/mNbmN9qWmMpQ-XN37IejdhwF5rn2-WD6fjRY8ZKcYUFer6F5Y-2vQTCDs3HpCHmOBtpeeWgu6g=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "963K",
+      "subs_raw": 963000
+    },
+    "BaityBait": {
+      "channel_id": "UChek7ZrFoRmtrRZTw87-FXg",
+      "name": "BaityLive",
+      "avatar": "https://yt3.ggpht.com/unbQYCw7zSObwuL-M54H1EqXhC7F1ryORavlYK0xnkmOTJ0lLscoUz_-lm4-T6V_tpmpLABWbA=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "820K",
+      "subs_raw": 820000
+    },
+    "PowerBazinga": {
+      "channel_id": "UCA7-KUzOQF-qk46knmCnCmg",
+      "name": "Powerbazinga TV",
+      "avatar": "https://yt3.ggpht.com/ytc/AIdro_l6lo_Z-g69Gqz0oW-IT5PCHm-n0z5F6lUTROV8ItZwX7Y=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "993K",
+      "subs_raw": 993000
+    },
+    "Plano de Juego": {
+      "channel_id": "UC910yxBmXzGDH_2cx0XE0Xw",
+      "name": "Plano de Juego",
+      "avatar": "https://yt3.ggpht.com/K4572aPCn9Sv2oBNmEP30_ZK0Jp8dHqGZKvXn_d13aj53qE1odTCjhUnucLvmmUaBUrKPnqKEw=s800-c-k-c0x00ffffff-no-rj",
+      "subs": "566K",
+      "subs_raw": 566000
     }
   }
 }
